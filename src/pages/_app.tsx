@@ -1,4 +1,5 @@
 // import App from "next/app";
+import { Header } from 'components/Header'
 import { AppProps /* , AppContext */ } from 'next/app'
 import Head from 'next/head'
 
@@ -11,6 +12,7 @@ function MyApp ({ Component, pageProps }: AppProps) {
         <title>Boilerplate</title>
         <meta name="description" content="My boilerplete" />
       </Head>
+      <Header />
       <Component {...pageProps} />
     </>
   )
