@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import { SubscribeButton } from 'components/SubscribeButton'
+import { SubscribeButton } from '../components/SubscribeButton'
 import { GetStaticProps } from 'next'
-import { stripe } from 'services/stripe'
+import { stripe } from '../services/stripe'
 import styles from './index.module.scss'
 
 interface HomeProps {

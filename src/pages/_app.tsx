@@ -1,5 +1,5 @@
 // import App from "next/app";
-import { Header } from 'components/Header'
+import { Header } from '../components/Header'
 import { AppProps /* , AppContext */ } from 'next/app'
 import Head from 'next/head'
 import { Provider as NextAuthProvider } from 'next-auth/client'
