@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import { SignInButton } from 'components/SignInButton'
+import { SignInButton } from '../SignInButton'
+import { ActiveLink } from '../ActiveLink'
 import styles from './styles.module.scss'
-import { ActiveLink } from 'components/ActiveLink'
 
 export function Header () {
   return (
