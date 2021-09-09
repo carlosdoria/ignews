@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "generate": "yarn plop --plopfile ./generators/plopfile.js",
-    "test": "jest --coverage",
+    "test": "jest",
     "test:ci": "jest --ci"
   },
   "dependencies": {
