@@ -19,7 +19,7 @@ describe('Posts page', () => {
     expect(screen.getByText('My new post')).toBeInTheDocument()
   })
 
-  it('render correctly', async () => {
+  it('loads initial data', async () => {
     const getPrismicClientMocked = mocked(getPrismicClient)
 
     getPrismicClientMocked.mockReturnValueOnce({
